@@ -43,9 +43,11 @@ Modes are best demonstrated in [demo videos](#demo) below.
 
 
 ## Demo
-Please check out [Quick manual](#menu) for how to use the attachment below.
+Click on images to check out the **video**.
 
 [![Basics](https://img.youtube.com/vi/V2m4WTE1YkU/0.jpg)](https://www.youtube.com/watch?v=V2m4WTE1YkU)
+
+Please check out [Quick manual](#menu) for how to use the attachment below.
 - [OpenDRIVE map](resources/basics.xodr)
 - [Action Replay](resources/basics.dat)
 
