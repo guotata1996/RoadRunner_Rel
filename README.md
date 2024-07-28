@@ -43,9 +43,11 @@ Modes are best demonstrated in [demo videos](#demo) below.
 
 
 ## Demo
-Please check out [Quick manual](#menu) for how to use the attachment below.
+Click on images to check out the **video**.
 
 [![Basics](https://img.youtube.com/vi/V2m4WTE1YkU/0.jpg)](https://www.youtube.com/watch?v=V2m4WTE1YkU)
+
+Please check out [Quick manual](#menu) for how to use the attachment below.
 - [OpenDRIVE map](resources/basics.xodr)
 - [Action Replay](resources/basics.dat)
 
@@ -60,11 +62,13 @@ Please check out [Quick manual](#menu) for how to use the attachment below.
 ## Known issues
 - Action replay may sometimes not work properly cross-platform, or on monitors with big resolution difference.
 
+- Replay verification upon quit sometimes fails if actions are loaded from a relay (.dat).
+
 - Occasional bugs in routing graph conversion and traffic simulation.
 
 If you find anything bothering or can't get around with, reporting is welcome through Github issues. Please attach the .xodr map and .dat action record if possible.
 
-## Announcement
+## Disclaimer
 This software is provided as-is, free to use. The author assumes no responsibility in any issue that results in any kind of loss. Please frequently save your changes while using.
 
 ## Credits
