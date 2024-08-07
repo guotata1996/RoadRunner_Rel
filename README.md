@@ -1,5 +1,5 @@
 # RoadRunner Release Repository
-Latest release: v0.5 on Jul 28, 2024
+Latest release: v0.6 on Aug 6, 2024
 
 ## About
 A desktop road network editor that makes [ASAM OpenDRIVE](https://www.asam.net/standards/detail/opendrive/)-format maps. Compared to commercial mapping software, RoadRunner is intended for casual users and hobbiests, providing free and easy experience without learning curve or $$ investment.
@@ -43,13 +43,17 @@ Modes are best demonstrated in [demo videos](#demo) below.
 
 
 ## Demo
+### v0.5
 Click on images to check out the **video**.
 
 [![Basics](https://img.youtube.com/vi/V2m4WTE1YkU/0.jpg)](https://www.youtube.com/watch?v=V2m4WTE1YkU)
 
-Please check out [Quick manual](#menu) for how to use the attachment below.
+Please check out [Quick manual](#menu) for how to use the attachment below. 
+
 - [OpenDRIVE map](resources/basics.xodr)
 - [Action Replay](resources/basics.dat)
+
+*Action replays were recorded in v0.5, incompatable with the latest version!*
 
 [![Hwy exit](https://img.youtube.com/vi/Bl3_kxfEm74/0.jpg)](https://www.youtube.com/watch?v=Bl3_kxfEm74)
 - [OpenDRIVE map](resources/hwy_exit.xodr)
@@ -59,12 +63,15 @@ Please check out [Quick manual](#menu) for how to use the attachment below.
 ![Bedford](resources/bedford.JPG "Bedford")
 [OpenDRIVE map](resources/bedford.xodr)
 
+### v0.6 - smooth curves
+![Bedford](resources/smooth_ramps.JPG "smooth")
+- [OpenDRIVE map](resources/interchange_smooth.xodr)
+- [Action Replay](resources/interchange_smooth.dat)
+
 ## Known issues
-- Action replay may sometimes not work properly cross-platform, or on monitors with big resolution difference.
-
-- Replay verification upon quit sometimes fails if actions are loaded from a relay (.dat).
-
 - Occasional bugs in routing graph conversion and traffic simulation.
+
+- Overlapping road sections may display in wrong order.
 
 If you find anything bothering or can't get around with, reporting is welcome through Github issues. Please attach the .xodr map and .dat action record if possible.
 
