@@ -1,5 +1,5 @@
 # RoadRunner Release Repository
-[Download RoadRunner v0.8](https://github.com/guotata1996/RoadRunner_Rel/releases/tag/v0.8)
+[Download RoadRunner v0.8.1](https://github.com/guotata1996/RoadRunner_Rel/releases/tag/v0.81)
 
 ## About
 A desktop road network editor that makes [ASAM OpenDRIVE](https://www.asam.net/standards/detail/opendrive/)-format maps. Compared to commercial mapping software, RoadRunner is intended for casual users and hobbiests, providing free and easy experience without learning curve or $$ investment.
@@ -20,7 +20,7 @@ This repository hosts RoadRunner's public releases. The source code remains priv
   - Undo
   - Redo
   - Verify Now: Checks app state and reports any inconsistency, i.e. bug. If "Always Verify" is set to ON inside Preference, this check will run upon each edit. 
-  - Toggle Simulation: Randomly spawns running cars. Used for routing graph verification only; not a traffic simulation. 
+  - Toggle Simulation: Randomly spawns running cars.
 - Replay
   - Save: Save actions since startup or last New map to a .dat file. Won't work if actions contain opening an .xodr map (this is a planned feature).
   - Debug: Load saved actions (.dat) and start playing at highest rate.
@@ -53,15 +53,20 @@ Modes are best demonstrated in [demo videos](#demo) below.
 - Escape: Cancel road edits.
 - Key_A: Cycle to the next overlapping road, where multiple roads overlap.
 - Key_I: Print (to the console) more details of the hovering road.
+- Key_S: Start/pause/resume simulation.
 
 
 ## Demo
+### v0.8.1 - Basic traffic rules
+![Traffic](resources/traffic_signal.png "traffic_rules")
+- [OpenDRIVE map](resources/traffic_test.xodr)
+
+## History
 ### v0.8 - Bridges and road markings
-![Bedford](resources/bedford_left.png "smooth")
+![Bedford](resources/bedford_left.png "bridges")
 - [OpenDRIVE map](resources/bedford_0_8.xodr)
 - [Background image](resources/bedford_background.PNG)
 
-## History
 ### v0.6 - smooth curves
 ![Bedford](resources/smooth_ramps.JPG "smooth")
 - [OpenDRIVE map](resources/interchange_smooth.xodr)
